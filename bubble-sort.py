@@ -8,7 +8,7 @@ def bubble_sort(numbers):
 				nums[j] = nums[j+1]
 				nums[j+1] = tmp
 
-if __name__=='__main__':
+if __name__=='__main__': 
 	nums = [34, 89, 21, 13, 90, 71, 37, 67, 45, 17]
 	print(nums)
 	bubble_sort(nums)			
