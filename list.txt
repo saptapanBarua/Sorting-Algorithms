@@ -1,0 +1,9 @@
+1. Bubble sort
+2. Selection sort
+3. Insertion sort
+4. Quick sort
+5. Merge sort
+6. shell sort
+7. Heap sort
+8. Counting sort
+9. Radix sort
