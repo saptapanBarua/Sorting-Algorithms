@@ -1,9 +1,14 @@
-nums = [48, 59, 12, 71, 37]
-print(nums)
+def selection_sort(numbers):
+    for i in range(len(numbers)):
+        min = numbers[i]
+        for j in range(i, len(numbers)):
+            if (numbers[j] < min):
+                min, numbers[j] = numbers[j], min
+        
+        min, numbers[i] = numbers[i], min
 
-for i in range(len(nums)):
-	min = nums[i]
-	for j in range(i, len(nums)):
-			pass
-
-print(nums)
+if __name__=='__main__':
+    nums = [34, 89, 21, 13, 90, 71, 37, 67, 45, 17]
+    print(nums)
+    selection_sort(nums)
+    print(nums)
